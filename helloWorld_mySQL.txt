@@ -1,0 +1,9 @@
+CREATE TABLE main (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    message VARCHAR(255)
+);
+INSERT INTO main (message) 
+VALUES ('Hello World!');
+SELECT message FROM main WHERE id = 1;
+
+// Creates a table with "Hello World" and prints it. 
